@@ -336,6 +336,16 @@ func (al *AgentLoop) buildCommandsRuntime(
 			return al.contextManager.Clear(ctx, opts.SessionKey)
 		}
 
+		rt.Compact = func() error {
+			if opts == nil {
+				return fmt.Errorf("process options not available")
+			}
+			return al.contextManager.Compact(ctx, &CompactRequest{
+				SessionKey: opts.SessionKey,
+				Reason:     ContextCompressReasonSummarize,
+			})
+		}
+
 		rt.AskSideQuestion = func(ctx context.Context, question string) (string, error) {
 			return al.askSideQuestion(ctx, agent, opts, question)
 		}
