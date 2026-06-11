@@ -1,0 +1,17 @@
+services:
+  picoclaw-launcher:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.launcher
+    image: picoclaw-server:latest
+    container_name: picoclaw-server
+    restart: unless-stopped
+    environment:
+      - PICOCLAW_GATEWAY_HOST=0.0.0.0
+      - PICOCLAW_HOME=/data
+      - PICOCLAW_LAUNCHER_TOKEN=${PICOCLAW_LAUNCHER_TOKEN:-}
+    ports:
+      - "18800:18800"
+      - "18790:18790"
+    volumes:
+      - ./server-data:/data

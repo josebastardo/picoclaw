@@ -1,0 +1,47 @@
+{
+  "version": 3,
+  "agents": {
+    "defaults": {
+      "workspace": "/data/workspace",
+      "restrict_to_workspace": true,
+      "model_name": "deepseek-v4-flash",
+      "max_tokens": 8192,
+      "context_window": 65536,
+      "temperature": 0.7,
+      "max_tool_iterations": 20
+    }
+  },
+  "evolution": {
+    "enabled": true,
+    "mode": "apply",
+    "cold_path_trigger": "after_turn"
+  },
+  "model_list": [
+    {
+      "model_name": "deepseek-v4-flash",
+      "model": "deepseek/deepseek-chat",
+      "api_keys": ["AQUI_TU_API_KEY"]
+    }
+  ],
+  "channel_list": {
+    "pico": {
+      "enabled": true,
+      "settings": {
+        "token": "test-token-local",
+        "allow_token_query": true,
+        "allow_origins": ["*"]
+      }
+    }
+  },
+  "tools": {
+    "exec": { "enabled": false },
+    "read_file": { "enabled": true },
+    "write_file": { "enabled": true },
+    "edit_file": { "enabled": true }
+  },
+  "gateway": {
+    "host": "0.0.0.0",
+    "port": 18790,
+    "log_level": "info"
+  }
+}
