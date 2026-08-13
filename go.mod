@@ -26,7 +26,7 @@ require (
 	github.com/h2non/filetype v1.1.3
 	github.com/kagisearch/kagi-openapi-golang v0.0.0-20260526215348-96575e864d62
 	github.com/larksuite/oapi-sdk-go/v3 v3.9.4
-	github.com/line/line-bot-sdk-go/v8 v8.20.0
+	github.com/line/line-bot-sdk-go/v8 v8.22.0
 	github.com/mdp/qrterminal/v3 v3.2.1
 	github.com/minio/selfupdate v0.6.0
 	github.com/modelcontextprotocol/go-sdk v1.5.0
@@ -36,6 +36,7 @@ require (
 	github.com/openai/openai-go/v3 v3.22.0
 	github.com/pion/rtp v1.10.2
 	github.com/pion/webrtc/v3 v3.3.6
+	github.com/pkoukk/tiktoken-go v0.1.8
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/rs/zerolog v1.35.1
 	github.com/slack-go/slack v0.23.1
@@ -104,7 +105,6 @@ require (
 	github.com/petermattis/goid v0.0.0-20260330135022-df67b199bc81 // indirect
 	github.com/pion/randutil v0.1.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
-	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/segmentio/asm v1.1.3 // indirect
