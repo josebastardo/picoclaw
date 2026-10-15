@@ -10,8 +10,8 @@ require (
 	github.com/adhocore/gronx v1.20.0
 	github.com/anthropics/anthropic-sdk-go v1.46.0
 	github.com/atc0005/go-teams-notify/v2 v2.14.0
-	github.com/aws/aws-sdk-go-v2 v1.41.11
-	github.com/aws/aws-sdk-go-v2/config v1.32.17
+	github.com/aws/aws-sdk-go-v2 v1.47.3
+	github.com/aws/aws-sdk-go-v2/config v1.33.9
 	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.53.3
 	github.com/bwmarrin/discordgo v0.29.0
 	github.com/caarlos0/env/v11 v11.4.1
@@ -36,6 +36,7 @@ require (
 	github.com/openai/openai-go/v3 v3.22.0
 	github.com/pion/rtp v1.10.2
 	github.com/pion/webrtc/v3 v3.3.6
+	github.com/pkoukk/tiktoken-go v0.1.8
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/rs/zerolog v1.35.1
 	github.com/slack-go/slack v0.23.1
@@ -61,18 +62,18 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.12.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v1.6.0 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.12 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.16 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.23 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.27 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.27 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.24 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.9 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.23 // indirect
-	github.com/aws/aws-sdk-go-v2/service/signin v1.0.11 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.30.17 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.21 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.42.1 // indirect
-	github.com/aws/smithy-go v1.27.0 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.20.9 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.20.3 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.6 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.6 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.5.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.21 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.14.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/signin v1.10.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.38.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.43.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.51.4 // indirect
+	github.com/aws/smithy-go v1.28.5 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/beeper/argo-go v1.1.2 // indirect
@@ -104,7 +105,6 @@ require (
 	github.com/petermattis/goid v0.0.0-20260330135022-df67b199bc81 // indirect
 	github.com/pion/randutil v0.1.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
-	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/segmentio/asm v1.1.3 // indirect
