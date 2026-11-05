@@ -18,7 +18,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/creack/pty v1.1.24
 	github.com/eclipse/paho.mqtt.golang v1.5.1
-	github.com/ergochat/irc-go v0.6.0
+	github.com/ergochat/irc-go v0.7.0
 	github.com/ergochat/readline v0.1.3
 	github.com/gomarkdown/markdown v0.0.0-20260411013819-759bbc3e3207
 	github.com/google/uuid v1.6.0
@@ -36,6 +36,7 @@ require (
 	github.com/openai/openai-go/v3 v3.22.0
 	github.com/pion/rtp v1.10.2
 	github.com/pion/webrtc/v3 v3.3.6
+	github.com/pkoukk/tiktoken-go v0.1.8
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/rs/zerolog v1.35.1
 	github.com/slack-go/slack v0.23.1
@@ -104,7 +105,6 @@ require (
 	github.com/petermattis/goid v0.0.0-20260330135022-df67b199bc81 // indirect
 	github.com/pion/randutil v0.1.0 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
-	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/segmentio/asm v1.1.3 // indirect
